@@ -7,8 +7,9 @@ Full code available in "stock_clustering.ipynb" notebook.
 
 ```
 # After importing dependcies create DataFrame.
-![Screenshot 2023-12-18 at 2 22 44 PM](https://github.com/samuelhfish/stock-clostering-demo/assets/125224990/62ceae61-917a-469a-a58e-9cd3d5a433d8)
 ```
+![Screenshot 2023-12-18 at 2 22 44 PM](https://github.com/samuelhfish/stock-clostering-demo/assets/125224990/62ceae61-917a-469a-a58e-9cd3d5a433d8)
+
 ```python
 # Scale price data, return, and variance values
 stock_data_scaled = StandardScaler().fit_transform(
