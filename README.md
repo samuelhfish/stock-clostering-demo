@@ -229,5 +229,5 @@ elbow_plot_pca
 ```
 ![Screenshot 2023-12-18 at 2 48 06 PM](https://github.com/samuelhfish/stock-clostering-demo/assets/125224990/1872971f-294b-4828-b93b-7544c62fbf4e)
 
-## Analysis:
-### Based on the PCA results and the elbow curve mthod we are able to get similar results with fewer features and also see that 3 is still the best value for k. 
+### Analysis:
+Based on the PCA results and the elbow curve mthod we are able to get similar results with fewer features and also see that 3 is still the best value for k. 
