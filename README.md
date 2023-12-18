@@ -1,5 +1,5 @@
 # stock-clostering-demo
-Demo for using scaling, encoding K-means clustering and PCA with energy stock data.
+Machine Learning demo using scaling, encoding, K-means clustering and PCA with energy stock data.
 
 The goal of this exercise is to standardize the data points that include "MeanOpen", "MeanHigh", "MeanLow", "MeanClose", "MeanVolume", "AnnualReturn", "AnnualVariance", use K-means clustering to segment data to potentially gain insight and then determine if reducing the data dimensionality with PCA will achieve similar amd possibly more insightful results.
 
@@ -55,6 +55,8 @@ model = KMeans(n_clusters=3)
 model.fit(df_stocks_scaled)
 ```
 ```
+Results:
+
 KMeans(n_clusters=3)
 ```
 ```python
